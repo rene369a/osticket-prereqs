@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Create Resource Group in Microsoft Azure, Create Windows 10 VM 4vCPUs
+- Create Resource Group in Microsoft Azure and Create Windows 10 VM 4vCPUs
 - Install/Enable IIS in Windows with CGI and Common HTTP features
 - [Download and Install files](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6), according to steps below
 - After MySQL download and install, open IIS as Admin, Register PHP from within IIS, Reload IIS
