@@ -32,10 +32,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img width="1670" alt="image" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/73df25c5-57a2-4995-828d-0f86fbd9a46f">
+<img width="1670" alt="Screenshot 2023-08-17 at 1 36 05 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/3be3c31b-5237-4eaa-b56b-4a012ccb769b">
 </p>
 <p>
-Start off by signing in to Miscrosoft Azure (https://portal.azure.com), so we can create a resource group for our Windows 10 Virtual Machine. Then, type Resource Group in the search bar, click it and proceed with making a new Resource Group named "RG-osTicket". Click a region where your Resource Group will be located, in this case West US 3. After, click review+create, let validation pass and click create. Congrats on creating your Resource Group
+Start off by signing in to Miscrosoft Azure (https://portal.azure.com), so we can create a resource group for our Windows 10 Virtual Machine. Then, type Resource Group in the search bar, click it and proceed with making a new Resource Group named "RG-osTicket". Click a region where your Resource Group will be located, in this case West US 3. After, click review+create, let validation pass and click create. Congrats on creating your Resource Group, now we can continue with our Virtual Machine.
 </p>
 <br />
 
