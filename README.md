@@ -44,7 +44,7 @@ Start off by signing in to Miscrosoft Azure (https://portal.azure.com), so we ca
 <img width="1670" alt="Screenshot 2023-08-17 at 2 11 36 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/d465b247-3641-4203-a81f-8a2cbbee022d">
 </p>
 <p>
-Search for Virtual Machines and once there, click on create; Azure Virtual Machine. We will be creating a Windows 10 VM 4 vCPUs into the resource group from previous step. Name it VM1, and region will be the same as your RG. Choose Windows 10 Pro, 22H2, for Image; 4 vCPUs for size, and your username and password. Don't forget to scroll down and check liscencing box. Then, click Next: Disks and Next: Networking. Allow a new Virtual Network (Vnet) to be created when making your Virtual Machine.
+Search for Virtual Machines and once there, click on create; Azure Virtual Machine. We will be creating a Windows 10 VM 4 vCPUs into the resource group from previous step. Name it VM1 and region will be the same as your RG. Choose Windows 10 Pro, 22H2, for Image; 4 vCPUs for size, and your username and password. Don't forget to scroll down and check liscencing box. Then, click Next: Disks and Next: Networking. Allow a new Virtual Network (Vnet) to be created when making your Virtual Machine.
 </p>
 <img width="1670" alt="Screenshot 2023-08-17 at 2 14 29 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/99af24f7-b3a6-4691-9095-3129cc8dc903">
 </p>
