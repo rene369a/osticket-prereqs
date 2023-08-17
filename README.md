@@ -26,8 +26,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create Resource Group in Microsoft Azure, Create Windows 10 VM 4vCPUs
 - Install/Enable IIS in Windows with CGI and Common HTTP features
 - [Download and Install files](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6), according to steps below
-- Item 4
-- Item 5
+- After MySQL download and install, open IIS as Admin, Register PHP from within IIS, Reload IIS
+- Install osTicket from files, extract copy "upload" folder to c:\inetpub\wwwroot, within c:\inetpub\wwwroot, rename "upload" folder to "osTicket"
 
 <h2>Installation Steps</h2>
 
