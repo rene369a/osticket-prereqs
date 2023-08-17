@@ -32,10 +32,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1670" alt="image" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/73df25c5-57a2-4995-828d-0f86fbd9a46f">
 </p>
 <p>
-Start off by signing in to Miscrosoft Azure (https://portal.azure.com), so we can create a resource group for our Windows 10 Virtual Machine. Then, type Resource Group in the search bar, click it and proceed with making a new Resource Group; RG-osTicket.
+Start off by signing in to Miscrosoft Azure (https://portal.azure.com), so we can create a resource group for our Windows 10 Virtual Machine. Then, type Resource Group in the search bar, click it and proceed with making a new Resource Group named "RG-osTicket". Click a region where your Resource Group will be located, in this case West US 3. After, click review+create, let validation pass and click create. Congrats on creating your Resource Group
 </p>
 <br />
 
@@ -43,7 +43,7 @@ Start off by signing in to Miscrosoft Azure (https://portal.azure.com), so we ca
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Allow a new Virtual Network (Vnet) to be created when making your Virtual Machine.
 </p>
 <br />
 
