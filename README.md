@@ -25,7 +25,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Create Resource Group in Microsoft Azure, Create Windows 10 VM 4vCPUs
 - Install/Enable IIS in Windows with CGI and Common HTTP features
-- Item 3
+- [Download and Install files](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6), according to steps below
 - Item 4
 - Item 5
 
