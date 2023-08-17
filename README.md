@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket, using Microsoft Azure; Virtual Machines on Mac OS.<br />
 
 
 <h2>Video Demonstration</h2>
@@ -22,8 +22,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
+- Create Resource Group in Microsoft Azure, Windows 10 VM, 4vCPUs
+- Install/Enable IIS in Windows with CGI and Common HTTP features
 - Item 3
 - Item 4
 - Item 5
