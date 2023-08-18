@@ -86,10 +86,120 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1670" alt="Screenshot 2023-08-18 at 2 47 08 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/dc04f7c4-91cc-4a40-bdf6-b2658e841897">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- Download and install the Rewrite Module (rewrite_amd64_en-US.msi).
+</p>
+<br />
+
+<p>
+<img width="1670" alt="Screenshot 2023-08-18 at 2 48 58 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/6f439f5f-503e-4bf2-933a-39445c60a135">
+</p>
+<p>
+- Create the directory C:\PHP
+</p>
+<br />
+
+<p>
+<img width="1670" alt="Screenshot 2023-08-18 at 2 52 55 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/db7e42ad-e629-4005-bad4-d544d33ee450">
+</p>
+<p>
+- Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+</p>
+<br />
+
+<p>
+<img width="1670" alt="Screenshot 2023-08-18 at 2 57 11 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/ccd1acd6-bcda-498a-b095-7bcebf3debf0">
+</p>
+<p>
+- Download and install VC_redist.x86.exe.
+</p>
+<br />
+
+<p>
+<img width="1670" alt="Screenshot 2023-08-18 at 3 01 06 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/be305502-a49a-429e-9341-a78353e050ae">
+</p>
+<p>
+- Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi), Typical Setup, Launch Configuration Wizard (after install), Standard Configuration, create a password.
+</p>
+<p>
+  <img width="1670" alt="Screenshot 2023-08-18 at 3 02 03 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/05b61400-6b15-4cbc-9973-35b837659169">
+  <img width="1670" alt="Screenshot 2023-08-18 at 3 02 22 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/e1e42342-83a6-43c6-ba3d-8053e863a3c1">
+</p>
+<br />
+
+<p>
+<img width="1670" alt="Screenshot 2023-08-18 at 3 05 04 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/3bd8b4a0-a305-47b3-a184-b93c96e96f92">
+</p>
+<p>
+- Open IIS as an Admin
+</p>
+<br />
+
+<p>
+<img width="1670" alt="Screenshot 2023-08-18 at 3 06 40 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/50e0a482-3b1e-49b9-86e2-60bab82a966f">
+<img width="1670" alt="Screenshot 2023-08-18 at 3 07 40 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/21c594fa-b5c8-46d8-b03c-c8a17cd2c8a1">
+
+</p>
+<p>
+- Register PHP from within IIS and then restart IIS.
+</p>
+<P>
+  <img width="1670" alt="Screenshot 2023-08-18 at 3 08 01 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/834d366b-0fcd-4089-93ea-5941172e7922">
+</P>
+<br />
+
+<p>
+<img width="1670" alt="Screenshot 2023-08-18 at 3 15 55 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/e973fb29-ec0e-43fe-aae1-f0c62a45e936">
+</p>
+<p>
+- Download/install osTicket v1.15.8 from files
+</p>
+<br />
+
+<p>
+<img width="1670" alt="Screenshot 2023-08-18 at 3 08 01 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/a3c5facc-4571-4b18-ba8e-779912bb3bc0">
+</p>
+<p>
+- Restart IIS
+</p>
+<br />
+
+<p>
+<img width="1670" alt="Screenshot 2023-08-18 at 3 19 30 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/ea927d41-1bc4-4b5b-a1b5-f04a59efe4e3">
+</p>
+<p>
+- Go to sites -> Default -> osTicket, On the right, click “Browse *:80”
+</p>
+<p>
+  <img width="1670" alt="Screenshot 2023-08-18 at 3 21 29 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/35e19aea-79d4-4473-aa7d-d640d06931f7">
+</p>
+<br />
+
+<p>
+<img width="1670" alt="Screenshot 2023-08-18 at 3 23 22 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/d531ec57-236f-4b0c-af2e-8877e0da5832">
+</p>
+<p>
+- Note that some extensions are not enabled. Go back to IIS, sites -> Default -> osTicket, double-click PHP Manager
+  </p>
+<p>
+- Click “Enable or disable an extension”
+</p>
+<p>
+  <img width="1670" alt="Screenshot 2023-08-18 at 3 23 59 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/1c2cb1f3-f06b-416d-bd75-c5ba6abf7255">
+</p>
+<p>
+- Enable: php_imap.dll, enable: php_intl.dll, enable: php_opcache.dll,
+</p>
+<p>
+  <img width="1670" alt="Screenshot 2023-08-18 at 3 27 14 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/4dc30329-bb26-48c9-bb06-f3ef4b41c0a3">
+</p>
+<p>
+- Refresh the osTicket site in your browse, observe the changes
+</p>
+<p>
+  <img width="1670" alt="Screenshot 2023-08-18 at 3 29 00 PM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/e7b04036-cfa8-49e6-9b64-6ef0d196275b">
 </p>
 <br />
 
@@ -100,3 +210,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+
