@@ -267,33 +267,69 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1670" alt="Screenshot 2023-08-19 at 10 39 36 AM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/bc6a6592-9637-453d-8d48-70ceb8d1f6bd">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- Continue osTicket set up
+
+  - Name Helpdesk
+  - Default email (receives email from customers)
+  - Enter Admin info
+  - Create username and password
+  - Do next step before continuing
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1670" alt="Screenshot 2023-08-19 at 10 43 45 AM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/584d64df-fe8c-4eda-91ce-2aec5f405faf">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- Download and install HeidiSQL.
+
+  - Open Heidi SQL
+  - Create a new session, root/Password1
+  - Connect to the session
+  - Create a database called “osTicket”
+</p>
+<p>
+  <img width="1670" alt="Screenshot 2023-08-19 at 10 44 57 AM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/4f1b26f0-d203-4778-8946-055d19594ff1">
+  
+  <img width="1670" alt="Screenshot 2023-08-19 at 10 46 47 AM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/60c15162-e849-43cf-acb5-6a877060d3d5">
+
+<img width="1670" alt="Screenshot 2023-08-19 at 10 47 20 AM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/d2940dc4-48c5-4fbc-9f29-a0c7c84e1b00">
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1670" alt="Screenshot 2023-08-19 at 10 52 15 AM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/eb95ec1c-ea39-4fe0-80cb-155b290cad37">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- Cotinue osTicket set up in browser, scroll down to Database Settings
+
+  - MySQL Database: osTicket
+  - MySQL Username: root
+  - MySQL Password: Password1
+  - Click “Install Now!”
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1670" alt="Screenshot 2023-08-19 at 10 59 16 AM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/b12b1be1-b10d-465b-a0a6-858cd611985d">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- Final clean up
+
+  - Delete: C:\inetpub\wwwroot\osTicket\setup
+  - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+</p>
+<p>
+  <img width="1670" alt="Screenshot 2023-08-19 at 11 02 14 AM" src="https://github.com/rene369a/osticket-prereqs/assets/142533276/cb28687a-85cc-4a0a-9795-d23e0bc24e8f">
 </p>
 <br />
+
+<p>
+- That concludes the installation of osTicket on a Windows 10 Virtual Machine using Microsoft Azure.
+
+  - Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+  - End Users osTicket URL: http://localhost/osTicket/
+</p>
