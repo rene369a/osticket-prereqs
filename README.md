@@ -6,9 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket, using Microsoft Azure: Virtual Machines on Mac OS.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [How To Install osTicket with Prerequisites](https://imgur.com/a/2cGhKHN)
 
 <h2>Environments and Technologies Used</h2>
 
